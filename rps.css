@@ -1,0 +1,17 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#container {
+    display: grid;
+}
+.choice-btn {
+    font-size: large;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+footer {
+    padding: 50px;
+}
