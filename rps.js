@@ -91,8 +91,6 @@ function playRound(playerChoice,computerChoice) {
     alert("Game over!")
 }
 game()*/
-const div_player = document.querySelector('#scorebug-player');
-const div_comput = document.querySelector('#scorebug-computer');
 const btns = document.querySelectorAll('button');
 btns.forEach((button) => {
     button.addEventListener('click',() => {
